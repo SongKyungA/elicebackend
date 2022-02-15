@@ -1,5 +1,6 @@
-import { grade } from './grade.js'
+// node.js 방식: require
 
-console.log(grade.kor)
-console.log(grade.eng)
-console.log(grade.mat)
+const grade = require('./grade.js')
+
+console.log(grade)
+console.log(grade.myfoo())
